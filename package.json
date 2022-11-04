@@ -1,6 +1,6 @@
 {
-  "name": "fastify",
-  "version": "2.15.3",
+  "name": "@chcpayment/fastify",
+  "version": "2.15.4",
   "description": "Fast and low overhead web framework, for Node.js",
   "main": "fastify.js",
   "typings": "fastify.d.ts",
@@ -22,7 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fastify/fastify.git"
+    "url": "git+https://github.com/hank7444/fastify.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "web",
